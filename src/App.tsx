@@ -7,9 +7,12 @@ function App() {
   })
   return (
     <div className="App">
-      <div className="box1">Box 1</div>
-      <div className="box2">
-        <div className="inner-box">Box 2</div></div>
+      <div className="box1">bokkusu
+        <div className="box2">kl;lj;j</div>
+
+
+      </div>
+
       <div className="box3">Box 3</div>
     </div>
   );
