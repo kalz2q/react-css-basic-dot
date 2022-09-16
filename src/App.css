@@ -8,27 +8,37 @@
     /* justify-content: center; */
     /* font-size: calc(10px + 2vmin); */
     /* color: white; */
+    position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 100px;
+    height: 100px;
 }
 
 .box1 {
     background-color: orange;
-    width: 100px;
-    height: 100px;
 }
 
 .box2 {
     background-color: skyblue;
-    width: 100px;
-    height: 100px;
     /* position: static; */
-    /* position: relative; */
-    position: fixed;
+    position: relative;
+    /* position: fixed; */
+    /* position: absolute; */
+    /* top: 30px; */
+    /* left: 30px; */
+}
+
+.inner-box {
+    position: absolute;
+    content: "";
     top: 30px;
     left: 30px;
 }
 
 .box3 {
     background-color: tomato;
-    width: 100px;
-    height: 100px;
 }
