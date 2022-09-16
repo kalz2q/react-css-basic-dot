@@ -25,20 +25,28 @@
 .box2 {
     background-color: skyblue;
     /* position: static; */
-    position: relative;
-    /* position: fixed; */
+    /* position: relative; */
     /* position: absolute; */
-    /* top: 30px; */
-    /* left: 30px; */
-}
-
-.inner-box {
-    position: absolute;
-    content: "";
     top: 30px;
     left: 30px;
 }
 
+* {
+    position: relative;
+}
+
+.inner-box {
+    width: 50px;
+    height: 20px;
+    background-color: lime;
+    position: absolute;
+    /* position: relative; */
+    /* content: ""; */
+    top: -5px;
+    right: -5px;
+}
+
 .box3 {
     background-color: tomato;
+    /* position: fixed; */
 }

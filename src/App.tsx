@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.title = "react-css-basic-dot"
+  })
   return (
     <div className="App">
       <div className="box1">Box 1</div>
